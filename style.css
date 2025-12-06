@@ -58,3 +58,36 @@ div#page {
 .nvbf h1 {
   font-size: 2.5rem;
 }
+
+/* 600 for mobile phones
+1024 for tablets */
+
+@media only screen and (max-width: 600px) {
+  nav.nvbf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  ul.ji {
+    display: none;
+  }
+
+  .cnt h1 {
+    font-size: 5.75rem;
+  }
+
+  div#page {
+    padding: 00 7%;
+    text-align: center;
+  }
+
+  .cnt {
+    display: flex;
+    align-items: center;
+    height: 60%;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
